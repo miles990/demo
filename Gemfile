@@ -13,6 +13,11 @@ group :production do
 	gem 'pg', '0.15.1'
 end
 
+group :test do
+	gem 'selenium-webdriver', '2.35.1'
+	gem 'capybara', '2.1.0'
+end
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
